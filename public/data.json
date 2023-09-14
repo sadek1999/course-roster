@@ -1,0 +1,86 @@
+
+     [
+      {
+        "id": 1,
+        "type": "programming",
+        "img": "https://i.ibb.co/Jjcf0nh/Rectangle-2-2.png",
+        "title": "C Programming",
+        "description": "Learn the fundamentals of C programming language.",
+        "price": "$49.99",
+        "cardthours": "3 hours"
+      },
+      {
+        "id": 2,
+        "type": "programming",
+        "img": "https://i.ibb.co/GJj14tp/Rectangle-3.png",
+        "title": "Java Programming",
+        "description": "Master Java programming and build real-world applications.",
+        "price": "$79.99",
+        "cardthours": "4 hours"
+      },
+      {
+        "id": 3,
+        "type": "programming",
+        "img": "https://i.ibb.co/BffXVz2/Rectangle-2-6.png",
+        "title": "Object-Oriented Programming (OOP)",
+        "description": "Explore the principles of OOP and design patterns.",
+        "price": "$59.99",
+        "cardthours": "3 hours"
+      },
+      {
+        "id": 4,
+        "type": "programming",
+        "img": "https://i.ibb.co/ync1trf/Rectangle-2-5.png",
+        "title": "Data Structures (DS)",
+        "description": "Learn about common data structures and their applications.",
+        "price": "$69.99",
+        "cardthours": "4 hours"
+      },
+      {
+        "id": 5,
+        "type": "programming",
+        "img": "https://i.ibb.co/8DRWsr2/Rectangle-3-1.png",
+        "title": "Algorithms",
+        "description": "Master algorithms and problem-solving techniques.",
+        "price": "$89.99",
+        "cardthours": "5 hours"
+      },
+      {
+        "id": 6,
+        "type": "web-development",
+        "img": "https://i.ibb.co/V3nZSgC/Rectangle-2-3.png",
+        "title": "HTML5 Fundamentals",
+        "description": "Learn the basics of HTML5 for web development.",
+        "price": "$29.99",
+        "cardthours": "2 hours"
+      },
+      {
+        "id": 7,
+        "type": "web-development",
+        "img": "https://i.ibb.co/cY0xhGm/Rectangle-2.png",
+        "title": "CSS Styling",
+        "description": "Master CSS for designing beautiful websites.",
+        "price": "$39.99",
+        "cardthours": "2 hours"
+      },
+      {
+        "id": 8,
+        "type": "web-development",
+        "img": "https://i.ibb.co/nRsXsgg/Rectangle-2-1.png",
+        "title": "JavaScript Essentials",
+        "description": "Learn the fundamentals of JavaScript programming.",
+        "price": "$49.99",
+        "cardthours": "3 hours"
+      },
+      {
+        "id": 9,
+        "type": "web-development",
+        "img": "https://i.ibb.co/8DRWsr2/Rectangle-3-1.png",
+        "title": "Responsive Web Design",
+        "description": "Create mobile-friendly websites using responsive design.",
+        "price": "$59.99",
+        "cardthours": "3 hours"
+      }
+    ]
+  
+  
