@@ -1,7 +1,7 @@
 
 import './App.css'
 import Blogs from './components/blogs/Blogs'
-import Head from './components/head/Head'
+import Head from './components/header/Head'
 
 function App() {
   

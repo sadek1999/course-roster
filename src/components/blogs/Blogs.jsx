@@ -12,7 +12,7 @@ const Blogs = () => {
     
     },[])
     return (
-        <div className="bg-green-100 w-3/4 grid grid-cols-3 ">
+        <div className=" w-3/4 grid grid-cols-3 ">
             
            {
            blogs.map(blog=><Blog 

@@ -5,7 +5,7 @@
         "type": "programming",
         "img": "https://i.ibb.co/Jjcf0nh/Rectangle-2-2.png",
         "title": "C Programming",
-        "description": "Learn the fundamentals of C programming language. This course covers:- Basic syntax- Variables and data types- Control structures- Functions- Pointers- Memory management",
+        "description": "Learn the fundamentals of C programming language. This course covers:- Basic syntax- Variables and data types- Control structures- Functions- Pointers- Memory management management",
         "price": "$49.99",
         "cardthours": "3 hours"
       },
@@ -32,7 +32,7 @@
         "type": "programming",
         "img": "https://i.ibb.co/ync1trf/Rectangle-2-5.png",
         "title": "Data Structures (DS)",
-        "description": "Learn about common data structures and their applications. Course content Arrays Linked lists Stacks and queues  Trees Hashing Sorting algorithms",
+        "description": "Learn about common data structures and their applications. Course content Arrays Linked lists Stacks and queues  Trees Hashing Sorting algorithms .common data structures",
         "price": "$69.99",
         "cardthours": "4 hours"
       },
