@@ -12,8 +12,8 @@ const Blogs = () => {
     
     },[])
     return (
-        <div className="bg-green-100 w-3/4">
-            <h2 className="text-5xl font-bold">Blogs :{blogs.length}</h2>
+        <div className="bg-green-100 w-3/4 grid grid-cols-3 ">
+            
            {
            blogs.map(blog=><Blog 
            blog={blog}
