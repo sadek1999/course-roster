@@ -7,7 +7,7 @@
         "title": "C Programming",
         "description": "Learn the fundamentals of C programming language. This course covers:- Basic syntax- Variables and data types- Control structures- Functions- Pointers- Memory management ",
         "price": "49",
-        "cardthours": "3 hours"
+        "cardthours": "4 hours"
       },
       {
         "id": 2,
@@ -16,7 +16,7 @@
         "title": "Java Programming",
         "description": "Master Java programming and build real-world applications. This course includes- Object-oriented programming- Exception handling- GUI development- Multithreading- Database connectivity",
         "price": "79",
-        "cardthours": "2 hours"
+        "cardthours": "5 hours"
       },
       {
         "id": 3,
@@ -25,7 +25,7 @@
         "title": "Object-Oriented Programming (OOP)",
         "description": "Explore the principles of OOP and design patterns. Topics covered Inheritance Polymorphism Encapsulation Abstraction Singleton pattern Factory pattern",
         "price": "59",
-        "cardthours": "3 hours"
+        "cardthours": "4 hours"
       },
       {
         "id": 4,
@@ -34,7 +34,7 @@
         "title": "Data Structures (DS)",
         "description": "Learn about common data structures and their applications. Course content Arrays Linked lists Stacks and queues  Trees Hashing Sorting algorithms .common data structures",
         "price": "69",
-        "cardthours": "3 hours"
+        "cardthours": "5 hours"
       },
       {
         "id": 5,
@@ -52,7 +52,7 @@
         "title": "HTML5 Fundamentals",
         "description": "Learn the basics of HTML5 for web development. Covered concepts: HTML structure, Semantic elements, Forms and input, Multimedia integration, HTML5 APIs, Responsive design",
         "price": "29",
-        "cardthours": "2 hours"
+        "cardthours": "4 hours"
       },
       {
         "id": 7,

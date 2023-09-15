@@ -23,7 +23,7 @@ function App() {
     
     const isExist=blogs.find(itme=>itme.id===Blog.id)
     if(isExist){
-      toast('alrady add the corse')
+      toast('Already added the corse')
     }
 
     else{
@@ -45,7 +45,7 @@ function App() {
     setRemainingCredit(newCredit)
   }
   else{
-    toast('you are not allow more the 20 credit ')
+    toast(' Not allowed more the 20 credit ')
   }
 
   }
