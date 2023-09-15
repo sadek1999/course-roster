@@ -5,42 +5,43 @@ import Blogs from './components/blogs/Blogs'
 import Marks from "./components/Marks/Marks.jsx"
 
 function App() {
-  const [credits,setCredits]=useState(0);
-  const[Price,setPreice]=useState(0);
-   const[Title,setTitle]=useState([]);
+  const [credits, setCredits] = useState(0);
+  const [Price, setPreice] = useState(0);
+  const [Titles, setTitle] = useState([]);
 
-  
 
-  const handalCredit=(credithours,price,title)=>{
-    let totalCradit=parseInt(credithours)+credits;
+
+  const handalCredit = (credithours, price, title) => {
+    let totalCradit = parseInt(credithours) + credits;
     setCredits(totalCradit);
 
-    let totalPrice=parseFloat(price)+Price;
+    let totalPrice = parseFloat(price) + Price;
     setPreice(totalPrice);
 
-    const newtitle=[...Title,title]
+    const newtitle = [...Titles, title]
     setTitle(newtitle)
-    
-    console.log(newtitle);
-    
+
+    // console.log(Titles);
+
   }
 
   return (
     <div className='bg-slate-200 p-4'>
-    
+
       <h1 className='text-4xl font-bold text-center'>Corse Registration</h1>
       <div className='flex gap-3 mt-3'>
         <Blogs
-        handalCredit={handalCredit}
-     
+          handalCredit={handalCredit}
+
         ></Blogs>
         <Marks
-        credits={credits}
-      Price={Price}
+          credits={credits}
+          Price={Price}
+          Titles={Titles}
         ></Marks>
       </div>
-      
-      </div>
+
+    </div>
   )
 }
 
