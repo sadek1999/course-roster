@@ -6,7 +6,7 @@
         "img": "https://i.ibb.co/Jjcf0nh/Rectangle-2-2.png",
         "title": "C Programming",
         "description": "Learn the fundamentals of C programming language. This course covers:- Basic syntax- Variables and data types- Control structures- Functions- Pointers- Memory management ",
-        "price": "49.99",
+        "price": "49",
         "cardthours": "3 hours"
       },
       {
@@ -15,7 +15,7 @@
         "img": "https://i.ibb.co/GJj14tp/Rectangle-3.png",
         "title": "Java Programming",
         "description": "Master Java programming and build real-world applications. This course includes- Object-oriented programming- Exception handling- GUI development- Multithreading- Database connectivity",
-        "price": "79.99",
+        "price": "79",
         "cardthours": "2 hours"
       },
       {
@@ -24,7 +24,7 @@
         "img": "https://i.ibb.co/BffXVz2/Rectangle-2-6.png",
         "title": "Object-Oriented Programming (OOP)",
         "description": "Explore the principles of OOP and design patterns. Topics covered Inheritance Polymorphism Encapsulation Abstraction Singleton pattern Factory pattern",
-        "price": "59.99",
+        "price": "59",
         "cardthours": "3 hours"
       },
       {
@@ -33,7 +33,7 @@
         "img": "https://i.ibb.co/ync1trf/Rectangle-2-5.png",
         "title": "Data Structures (DS)",
         "description": "Learn about common data structures and their applications. Course content Arrays Linked lists Stacks and queues  Trees Hashing Sorting algorithms .common data structures",
-        "price": "69.99",
+        "price": "69",
         "cardthours": "3 hours"
       },
       {
@@ -42,7 +42,7 @@
         "img": "https://i.ibb.co/8DRWsr2/Rectangle-3-1.png",
         "title": "Algorithms",
         "description": "Master algorithms and problem-solving techniques. Topics include: Algorithm analysis, Searching algorithms, Graph algorithms, Dynamic programming, Greedy algorithms, NP-completeness",
-        "price": "89.99",
+        "price": "89",
         "cardthours": "3 hours"
       },
       {
@@ -51,7 +51,7 @@
         "img": "https://i.ibb.co/V3nZSgC/Rectangle-2-3.png",
         "title": "HTML5 Fundamentals",
         "description": "Learn the basics of HTML5 for web development. Covered concepts: HTML structure, Semantic elements, Forms and input, Multimedia integration, HTML5 APIs, Responsive design",
-        "price": "29.99",
+        "price": "29",
         "cardthours": "2 hours"
       },
       {
@@ -60,7 +60,7 @@
         "img": "https://i.ibb.co/cY0xhGm/Rectangle-2.png",
         "title": "CSS Styling",
         "description": "Master CSS for designing beautiful websites. Topics covered: CSS selectors, Box model, Layout techniques, CSS animations, CSS frameworks, Cross-browser compatibility",
-        "price": "39.99",
+        "price": "39",
         "cardthours": "3 hours"
       },
       {
@@ -69,7 +69,7 @@
         "img": "https://i.ibb.co/nRsXsgg/Rectangle-2-1.png",
         "title": "JavaScript Essentials",
         "description": "Learn the fundamentals of JavaScript programming. Course includes: Variables and data types, Control structures, Functions, DOM manipulation, Event handling, AJAX",
-        "price": "49.99",
+        "price": "49",
         "cardthours": "3 hours"
       },
       {
@@ -78,7 +78,7 @@
         "img": "https://i.ibb.co/8DRWsr2/Rectangle-3-1.png",
         "title": "Responsive Web Design",
         "description": "Create mobile-friendly websites using responsive design techniques. Course covers: Media queries, Flexbox, CSS Grid, Mobile-first approach, Testing and optimization, Bootstrap framework",
-        "price": "59.99",
+        "price": "59",
         "cardthours": "3 hours"
       }
     ]

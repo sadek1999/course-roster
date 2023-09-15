@@ -3,30 +3,45 @@ import { useState } from 'react'
 import './App.css'
 import Blogs from './components/blogs/Blogs'
 import Marks from "./components/Marks/Marks.jsx"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [credits, setCredits] = useState(0);
   const [Price, setPreice] = useState(0);
+  const[RemainingCredit,setRemainingCredit]=useState(20)
   const [Titles, setTitle] = useState([]);
 
 
 
   const handalCredit = (credithours, price, title) => {
     let totalCradit = parseInt(credithours) + credits;
-    setCredits(totalCradit);
+    
+    if(totalCradit<=20){
+      setCredits(totalCradit);
 
-    let totalPrice = parseFloat(price) + Price;
+    let totalPrice = parseInt(price) + Price;
     setPreice(totalPrice);
 
     const newtitle = [...Titles, title]
-    setTitle(newtitle)
+    setTitle(newtitle);
 
-    // console.log(Titles);
+    let newCredit=20-totalCradit;
+    setRemainingCredit(newCredit)
+  }
+  else{
+    toast('you are not allow more the 20 credit ')
+  }
+
+
+    // console.log(newCredit);
 
   }
 
   return (
     <div className='bg-slate-200 p-4'>
+      <ToastContainer></ToastContainer>
+     
 
       <h1 className='text-4xl font-bold text-center'>Corse Registration</h1>
       <div className='flex gap-3 mt-3'>
@@ -34,10 +49,13 @@ function App() {
           handalCredit={handalCredit}
 
         ></Blogs>
+         
         <Marks
+        
           credits={credits}
           Price={Price}
           Titles={Titles}
+          RemainingCredit={RemainingCredit}
         ></Marks>
       </div>
 

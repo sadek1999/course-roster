@@ -1,4 +1,5 @@
 import {  BiBookOpen } from 'react-icons/bi';
+import {FiDollarSign}from 'react-icons/fi';
 
 
 const Blog = ({blog,handalCredit}) => {
@@ -10,9 +11,9 @@ const Blog = ({blog,handalCredit}) => {
             <h3 className="text-xl font-bold">{title}  </h3>
             <p className="">{description}</p>
             <div className="flex justify-between p-2">
-            <div >
-                
-                <p>price ={price}</p>
+            <div className='flex gap-2 items-center' >
+                <h2><FiDollarSign></FiDollarSign></h2>
+                <p>price = {price}</p>
             </div>
             <div className='flex gap-2 items-center'>
                 <h2><BiBookOpen></BiBookOpen></h2>

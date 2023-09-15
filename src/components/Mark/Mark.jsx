@@ -1,10 +1,12 @@
 
 
 const Mark = ({title}) => {
+    
+
     return (
           <>
                 <ol className="">
-                    <li>{title}</li>
+                    <li> {title}</li>
                     
                 </ol>
         </>
