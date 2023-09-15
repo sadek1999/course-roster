@@ -1,6 +1,6 @@
 # Corse-Registration
 
-### This project make for university students corse registration smoothly.
+#### This project has been undertaken to facilitate the corse registration process of university students
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
