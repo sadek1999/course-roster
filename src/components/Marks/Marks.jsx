@@ -1,4 +1,4 @@
-import Mark from "../Mark/Mark";
+
 
 
 
@@ -12,12 +12,12 @@ const Marks = ({credits,Price,Titles,RemainingCredit}) => {
             </div>
             <div className="text-start p-2 border-b-2">
             <h1 className="text-2xl font-bold">Crouse Name</h1>
-            {
-                Titles.map((title ,idx)=><Mark 
-                    key={idx}
-                title={title}
-                ></Mark>)
-              } 
+           
+              {
+                Titles.map((title ,idx)=>
+                
+                <ol  key={idx}>{idx+1} {title}</ol>)
+              }
                 
             </div>
             <div className="p-3 border-b-2">

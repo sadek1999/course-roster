@@ -12,16 +12,16 @@ function App() {
   const [Price, setPreice] = useState(0);
   const[RemainingCredit,setRemainingCredit]=useState(20)
   const [Titles, setTitle] = useState([]);
-  const[blogs,setblogs]=useState([])
+  const[Ids,setids]=useState([])
   
 
 
 
-  const handalCredit = (credithours, price, title,Blog) => {
+  const handalCredit = (credithours, price, title,id) => {
     let totalCradit = parseInt(credithours) + credits;
        
     
-    const isExist=blogs.find(itme=>itme.id===Blog.id)
+    const isExist=Ids.find(itme=>itme===id)
     if(isExist){
       toast('Already added the corse')
     }
@@ -31,9 +31,9 @@ function App() {
     if(totalCradit<=20){
       setCredits(totalCradit);
 
-    const newblog=[...blogs,Blog];
-    setblogs(newblog);
-    console.log(newblog)
+    const newIds=[...Ids,id];
+    setids(newIds);
+    // console.log()
 
     let totalPrice = parseInt(price) + Price;
     setPreice(totalPrice);

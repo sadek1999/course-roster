@@ -21,7 +21,7 @@ const Blog = ({blog,handalCredit}) => {
             </div>
             </div>
             <button onClick={()=>{
-                handalCredit(cardthours,price,title,blog)
+                handalCredit(cardthours,price,title,id)
                 
             }}
                  className="bg-blue-500 text-white w-full font-bold text-xl py-1 rounded-lg ">select</button>
