@@ -1,6 +1,6 @@
 
 
-const Head = () => {
+const Mark = ({credits,Price}) => {
     return (
         <div className="text-start bg-stone-100 p-3 rounded space-y-2">
             <div className=" p-2 border-b-2 ">
@@ -14,14 +14,14 @@ const Head = () => {
                 </ol>
             </div>
             <div className="p-3 border-b-2">
-                <h3 className="text-xl font-semibold">Total Credit Hour :  </h3>
+                <h3 className="text-xl font-semibold">Total Credit Hour : {credits} </h3>
             </div>
             <div>
-                <h1 className="text-2xl font-semibold">Total Price : 3423 USD</h1>
+                <h1 className="text-2xl font-semibold">Total Price : {Price} USD</h1>
             </div>
             
         </div>
     );
 };
 
-export default Head;
+export default Mark;

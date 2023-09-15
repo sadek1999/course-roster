@@ -1,7 +1,7 @@
 import {  BiBookOpen } from 'react-icons/bi';
 
 
-const Blog = ({blog}) => {
+const Blog = ({blog,handalCredit}) => {
     const {title ,img,description,price,cardthours}=blog;
     
     return (
@@ -19,7 +19,11 @@ const Blog = ({blog}) => {
                 <p>credit:{cardthours}</p>
             </div>
             </div>
-            <button className="bg-blue-500 text-white w-full font-bold text-xl py-1 rounded-lg ">select</button>
+            <button onClick={()=>{
+                handalCredit(cardthours,price,title)
+                
+            }}
+                 className="bg-blue-500 text-white w-full font-bold text-xl py-1 rounded-lg ">select</button>
             
         </div>
     );

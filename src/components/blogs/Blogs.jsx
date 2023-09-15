@@ -3,7 +3,7 @@ import Blog from "../blog/Blog";
 
 
 
-const Blogs = () => {
+const Blogs = ({handalCredit}) => {
     const [blogs,setblogs]=useState([]);
     useEffect(()=>{
         fetch('data.json')
@@ -17,7 +17,10 @@ const Blogs = () => {
            {
            blogs.map(blog=><Blog 
            blog={blog}
-           key={blog.id}></Blog>)
+           key={blog.id}
+        handalCredit={handalCredit}
+       
+           ></Blog>)
            }
         </div>
     );
