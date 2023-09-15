@@ -1,12 +1,13 @@
 
 
 const Mark = ({title}) => {
-    
+    let count=0
+    count++;
 
     return (
           <>
                 <ol className="">
-                    <li> {title}</li>
+                    <li>{count} {title}</li>
                     
                 </ol>
         </>

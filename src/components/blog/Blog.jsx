@@ -3,7 +3,7 @@ import {FiDollarSign}from 'react-icons/fi';
 
 
 const Blog = ({blog,handalCredit}) => {
-    const {title ,img,description,price,cardthours}=blog;
+    const {title ,img,description,price,cardthours,id}=blog;
     
     return (
         <div className="bg-white m-2 rounded-lg p-4 space-y-2">
@@ -21,7 +21,7 @@ const Blog = ({blog,handalCredit}) => {
             </div>
             </div>
             <button onClick={()=>{
-                handalCredit(cardthours,price,title)
+                handalCredit(cardthours,price,title,blog)
                 
             }}
                  className="bg-blue-500 text-white w-full font-bold text-xl py-1 rounded-lg ">select</button>

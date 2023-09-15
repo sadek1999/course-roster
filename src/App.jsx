@@ -6,19 +6,34 @@ import Marks from "./components/Marks/Marks.jsx"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 function App() {
   const [credits, setCredits] = useState(0);
   const [Price, setPreice] = useState(0);
   const[RemainingCredit,setRemainingCredit]=useState(20)
   const [Titles, setTitle] = useState([]);
+  const[blogs,setblogs]=useState([])
+  
 
 
 
-  const handalCredit = (credithours, price, title) => {
+  const handalCredit = (credithours, price, title,Blog) => {
     let totalCradit = parseInt(credithours) + credits;
+       
     
+    const isExist=blogs.find(itme=>itme.id===Blog.id)
+    if(isExist){
+      toast('alrady add the corse')
+    }
+
+    else{
+
     if(totalCradit<=20){
       setCredits(totalCradit);
+
+    const newblog=[...blogs,Blog];
+    setblogs(newblog);
+    console.log(newblog)
 
     let totalPrice = parseInt(price) + Price;
     setPreice(totalPrice);
@@ -33,8 +48,8 @@ function App() {
     toast('you are not allow more the 20 credit ')
   }
 
-
-    // console.log(newCredit);
+  }
+    
 
   }
 
