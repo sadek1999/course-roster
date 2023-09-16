@@ -46,6 +46,7 @@ function App() {
   }
   else{
     toast(' Not allowed more the 20 credit ')
+    
   }
 
   }
