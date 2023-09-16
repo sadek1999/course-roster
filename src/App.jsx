@@ -23,7 +23,7 @@ function App() {
     
     const isExist=Ids.find(itme=>itme===id)
     if(isExist){
-      toast.warn('Alrady add the corse!', {
+      toast.warn('Already added the course!', {
         position: "top-center",
         autoClose: 5000,
         hideProgressBar: false,
