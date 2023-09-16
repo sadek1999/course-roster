@@ -23,7 +23,16 @@ function App() {
     
     const isExist=Ids.find(itme=>itme===id)
     if(isExist){
-      toast('Already added the corse')
+      toast.warn('Alrady add the corse!', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        });
     }
 
     else{
@@ -45,7 +54,17 @@ function App() {
     setRemainingCredit(newCredit)
   }
   else{
-    toast(' Not allowed more the 20 credit ')
+    
+    toast.warn(' Not allowed more the 20 credit!', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
     
   }
 
